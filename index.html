@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Online CV</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1 id="firstHeading">ANDRE DE BEER'S CV</h1>
+        <hr>
+    </header>
+
+    <main>
+        <!-- Professional Summary -->
+        <section id="summary">
+            <p id="first-paragraph">I have over time worked myself into the position of senior controller, managing a team of 3
+            colleagues, while working with multiple other staff levels on a moment-to-moment basis at a national
+            scale, coordinating and setting shifts, calculating working hours and leave days, and trying to ensure
+            the business operates as best it can.</p>
+            
+            <p id="second-paragraph">I am comfortable on the phone, can convey messages and information across needed, as well as managing breakdowns to ensure that all are attended to in
+            a timely matter, keeping clients updated and informed. I also have experience as an assistant
+            manager at NuMetro managing a team of 30 staff members.</p>
+            
+            <p>My comfort with technology has allowed me to keep up with increasing work demands, and I am
+            looking to expand my skillset into development for further value propositions to employers. I have achieved a bachelors degree in business and marketing, and also have a higher certificate in pc engineering, but currently
+            I am studying Coding through HyperionDev (<i>FullStack developer and Web
+            development</i>). I am self-driven, loyal and motivated to learn new skills and take on new
+            responsibilities.</p>
+        </section>
+
+        <!-- Contact Information -->
+        <section id="contact">
+            <h2 id="secondHeading">Contact Info</h2>
+            <ul> 
+                <li>Name: Andre de Beer</li>
+                <li>Contact number: 0129876543</li>
+                <li>Email address: <a href="mailto:example@gmail.com">example@gmail.com</a></li>
+                <li>LinkedIn: <a href="https://www.example.linkedIn.com" target="_blank">example LinkedIn</a></li>
+            </ul> 
+            
+            <a href="https://randomuser.me/api/portraits/men/1.jpg" target="_blank">
+                <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Profile photo of Random" width="150">
+            </a>
+        </section>
+
+        <!-- Search Form -->
+        <section id="search">
+            <form action="index.html" method="get">
+                <label for="query">Search:</label>
+                <input type="text" id="query" name="q" placeholder="Enter search term" required>
+                <button type="submit">Search</button>
+            </form>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact-form">
+            <h3>Contact Me:</h3>
+            <p>Please feel free to submit any questions or feedback with the form below</p>
+
+            <form action="https://formspree.io/f/mldgeeqp" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" placeholder="Please Enter Name" required>
+                
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" placeholder="Please Enter Email" required>
+                
+                <label for="message">Your Message:</label>
+                <textarea id="message" placeholder="Please enter a message" rows="5" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
